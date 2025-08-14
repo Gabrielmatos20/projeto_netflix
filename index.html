@@ -9,30 +9,40 @@
 </head>
 <body class="bg-filmes">
     <div class="container-fluid" >
+
         <header class="row">
             <img src="assets/logo.png" alt="">
         </header>
+        
         <div id="caixa_login" class="col-4 offset-4">
-        <h1 class="text-white" >Entrar</h1>
+        
         <br>
-        <form action="">
+        <form action="" method="post">
 
-            <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="E-mail ou número de telefone">
+            <h1 class="text-white" >Entrar</h1>
+
+            <input type="email" class="" name="email" id="email" placeholder="E-mail ou número de telefone">
             <br>
-            <input type="password" class="form-control form-control-lg" name="senha" id="senha" placeholder="Senha">
+            <input type="password" class="" name="senha" id="senha" placeholder="Senha">
             <br>
             <button class="btn btn-lg btn-block btn-danger"><strong>Entrar</strong></button>
             <p>OU</p>
             <button class="btn btn-lg btn-block btn-secondary"><strong>Usar codigo de acesso</strong>
             <br>
-            <a href="#" class="btn2">Esqueceu a Senha?</a>
+            <a href="#" class="esq_senha">Esqueceu a Senha?</a>
 
                 
             </button>
 
             <div class="row checkboxelink" >
                 <div class="col">
-                    <input type="checkbox" name="lembrar" id="lembrar"> <label for="lembrar" class="text-white">Lembrar de mim</label>
+                    <input type="checkbox" name="lembrar" id="lembrar"> <label for="lembrar" class="text-white">Lembre-se de mim</label>
+
+                    <div id="p-link">
+                        <p id="ass-agr">Primeira vez aqui? <a href="#">Assine agora.</a></p>
+                        <p>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.</p>
+                        <a href="#" class="saiba-mais">Saiba mais</a>
+                    </div>
                 </div>
                
             </div>
@@ -40,6 +50,19 @@
 
         </div>
     </div>
-    
+    <footer>
+        <div>
+            <p>Dúvidas? ligue para 0000 000 0000 (ligação gratis)</p>
+            <a href="#">Perguntas frequentes</a>
+            <a href="#">central de ajuda</a>
+
+            <a href="#">Termos de uso</a>
+            <a href="#">Privacidade</a>
+            <br>
+            <a href="#">Preferencia de cookies</a>
+            <a href="#">Informações corporativas</a>
+            
+        </div>
+    </footer>
 </body>
 </html>
