@@ -158,9 +158,10 @@ nav a:hover{
 
 #hero{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image: url(assets/capa_filme.png);
     background-size: cover;
+    
     
     
 }
